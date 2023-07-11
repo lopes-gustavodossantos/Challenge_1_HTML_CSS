@@ -1,0 +1,11 @@
+.header {
+    overflow: hidden;
+    background-color: #32325D;
+    padding: 10px;
+  }
+.header img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
