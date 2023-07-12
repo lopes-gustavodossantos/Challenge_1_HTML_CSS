@@ -2,6 +2,7 @@
 
 main{
   display: flex;
+  justify-content: center;
 }
 
 body {
@@ -11,8 +12,8 @@ body {
 }
 
 .header {
-
-  display: flex;
+  display:flex;
+  position: fixed;
   width: 1000%;
   height: 59px;
   padding: 15px, 79px, 15px, 79px;
@@ -30,27 +31,36 @@ body {
 }
 
 .title {
-  position: fixed;
-  margin-top: 167px;
-  margin-left: 79px;
+  display: flex;
+  width: 221px;
+  height: 46px;
+  top: 167px;
+  left: 79px;
+  border: 3px;
+}
+
+.title_text{
+  position:absolute;
+  width: 221px;
+  height: 20px;
+  top: 167px;
+  left: 79px;
   font-family: 'Inter';
-  font-size: 36px;
   font-style: normal;
   font-weight: 600;
+  font-size: 36px;
   line-height: 20px;
-  letter-spacing: 3.6px;
+  letter-spacing: 0.1rem;
   color: #3A4F9A;
 }
 
-.underline {
-  position: fixed;
-  width: 214px;
-  height: 0px;
-  flex-shrink: 0;
-  margin-top: 213px;
-  margin-left: 82px;
-  border: 3px;
+.title_line {
+  position: absolute;
+  height: 3.6px;
+  top: 235px;
+  left: 82px;
 }
+
 .parent {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
