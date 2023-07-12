@@ -1,38 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-header {
-  position: fixed;
-  width: 1512px;
+main{
+  display: flex;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+
+  display: flex;
+  width: 1000%;
   height: 59px;
   padding: 15px, 79px, 15px, 79px;
-  gap: 8px;
-  top: 0px;
-  left: 0px;
   background-color: #32325D;
-  box-shadow: 0px 4px 4px 0px #00000040;;
+  box-shadow: 0px 4px 4px 0px #00000040;
 }
 
 .logo {
-  position: fixed;
-  width: 28px;
-  height: 28px;
+  display: flex;
+  width: 102px;
+  height: 29px;
   margin-top: 15px;
   margin-left: 79px;
   flex-shrink: 0;
-}
-
-.title_logo {
-  position: fixed;
-  width: 1512px;
-  height: 982px;
-  margin-top: 15px;
-  margin-left: 115px;
-  color: #FFFFFF;
-  font-family: Inter;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
 }
 
 .title {
@@ -56,4 +50,48 @@ header {
   margin-top: 213px;
   margin-left: 82px;
   border: 3px;
+}
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 50px 50px;
+  }
+
+.card {
+  flex-wrap: wrap;
+  width: 409px;
+  height: 455px;
+  flex-shrink: 0;
+  margin-top: 260px;
+  margin-left: 79px;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.content {
+  padding: 1.1rem;
+}
+
+.image {
+  object-fit: cover;
+  width: 409px;
+  height: 273px;
+  flex-shrink: 0;
+  background-color: rgb(239, 205, 255);
+}
+
+.title_card {
+  color: #111827;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+.desc {
+  margin-top: 0.5rem;
+  color: #6B7280;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
