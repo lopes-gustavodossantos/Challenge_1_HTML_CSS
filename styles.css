@@ -26,13 +26,43 @@ header img {
   font-family: 'Inter';
   letter-spacing: .2rem;
   color: #3A4F9A;
- }
+}
 
- .underline {
+.underline {
   position: fixed;
   width: 188px;
   height: auto;
   margin-top: 190px;
   margin-left: 62px;
   border-bottom: 3px solid #3A4F9A;
-  }
+}
+
+.card {
+  position: fixed;
+  max-width: 300px;
+  border-radius: 0.5rem;
+  background-color: #FFFFFF;
+  margin-top: 230px;
+  margin-left: 60px;
+  box-shadow: 0 1px 1px 0 #575757;
+}
+
+.image {
+  max-width: 300px;
+  max-height: 200px;
+  object-fit: cover;
+  width: auto;
+  height: 200px;
+  background-color: #4b0082;
+}
+
+.content {
+  padding: 1.1rem;
+}
+
+.desc {
+  margin-top: 0.5rem;
+  color: #575757;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
