@@ -1,15 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 header {
-    position: fixed;
-    width: 100%;
-    padding: 15px;
-    top: 0;
-    left: 0;
-    background-color: #32325D;
+  position: fixed;
+  width: 100%;
+  padding: 15px;
+  top: 0;
+  left: 0;
+  background-color: #32325D;
+}
+
+header img {
+  max-width: 120px;
+  max-height: 60px;
+  width: auto;
+  height: auto;
+  margin-left: 60px;
+}
+
+.title {
+  position: fixed;
+  width: 600px;
+  height: auto;
+  margin-top: 120px;
+  margin-left: 60px;
+  font-family: 'Inter';
+  letter-spacing: .2rem;
+  color: #3A4F9A;
+ }
+
+ .underline {
+  position: fixed;
+  width: 188px;
+  height: auto;
+  margin-top: 190px;
+  margin-left: 62px;
+  border-bottom: 3px solid #3A4F9A;
   }
- header img {
-    max-width: 120px;
-    max-height: 60px;
-    width: auto;
-    height: auto;
-    margin-left: 60px;
-  } 
