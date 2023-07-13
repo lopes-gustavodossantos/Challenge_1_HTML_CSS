@@ -2,13 +2,11 @@
 
 main{
   display: flex;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 body {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 .header {
@@ -33,6 +31,7 @@ body {
 .title_text{
   display: flex;
   position: absolute;
+  z-index: -1;
   width: 221px;
   height: 20px;
   top: 140px;
@@ -48,6 +47,7 @@ body {
 
 .title_line {
   position: absolute;
+  z-index: -1;
   height: 3.6px;
   top: 213px;
   left: 82px;
@@ -66,6 +66,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 330px;
+  height: 435px;
   border-radius: 8px;
   border: 1px solid transparent;
   background-color: #FFFFFF;
@@ -76,21 +77,46 @@ body {
   padding: 1.1rem;
 }
 
-.image {
-  object-fit: cover;
-  background-color: rgb(239, 205, 255);
-}
-
-.title_card {
-  color: #111827;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-  font-weight: 600;
+.card_title {
+  width: 122px;
+  height: 20px;
+  margin-top: 5px;
+  left: 29px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.1rem;
+  color: #3A4F9A;
 }
 
 .desc {
-  margin-top: 0.5rem;
-  color: #6B7280;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  width: auto;
+  height: 109px;
+  left: 29px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.1rem;
+  color: #575757;
+}
+
+button.link { 
+  width: 70px;
+  height: 20px;
+  margin-top: 0px;
+  margin-left: 220px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.1rem;
+  color: #3A4F9A;
+  background:none; 
+  border:none; 
+
 }
