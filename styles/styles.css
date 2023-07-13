@@ -120,3 +120,25 @@ button.link {
   border:none; 
 
 }
+
+.circle_throwback_button {
+  display: flex;
+  position: fixed;
+  z-index: -1;
+  width: 75px;
+  height: 75px;
+  margin-top: 82px;
+  margin-left: 34px;
+  border: 0px;
+  background:none; 
+  border:none; 
+}
+
+.arrow_throwback_button {
+  display: flex;
+  width: 49px;
+  height: 49px;
+  margin-top: 90px;
+  margin-left: 47px;
+  border: 0px;
+}
