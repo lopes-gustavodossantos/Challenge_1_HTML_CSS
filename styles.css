@@ -2,7 +2,7 @@
 
 main{
   display: flex;
-  justify-content: center;
+  padding-bottom: 50px;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 .header {
   display:flex;
   position: fixed;
-  width: 1000%;
+  width: 200%;
   height: 59px;
   padding: 15px, 79px, 15px, 79px;
   background-color: #32325D;
@@ -30,20 +30,12 @@ body {
   flex-shrink: 0;
 }
 
-.title {
-  display: flex;
-  width: 221px;
-  height: 46px;
-  top: 167px;
-  left: 79px;
-  border: 3px;
-}
-
 .title_text{
-  position:absolute;
+  display: flex;
+  position: absolute;
   width: 221px;
   height: 20px;
-  top: 167px;
+  top: 140px;
   left: 79px;
   font-family: 'Inter';
   font-style: normal;
@@ -57,25 +49,25 @@ body {
 .title_line {
   position: absolute;
   height: 3.6px;
-  top: 235px;
+  top: 213px;
   left: 82px;
 }
 
-.parent {
+.grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 50px 50px;
+  margin-top: 260px;
+  margin-left: 79px;
+  gap: 40px 40px;
   }
 
 .card {
-  flex-wrap: wrap;
-  width: 409px;
-  height: 455px;
-  flex-shrink: 0;
-  margin-top: 260px;
-  margin-left: 79px;
+  display: flex;
+  flex-direction: column;
+  width: 330px;
   border-radius: 8px;
+  border: 1px solid transparent;
   background-color: #FFFFFF;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
@@ -86,9 +78,6 @@ body {
 
 .image {
   object-fit: cover;
-  width: 409px;
-  height: 273px;
-  flex-shrink: 0;
   background-color: rgb(239, 205, 255);
 }
 
