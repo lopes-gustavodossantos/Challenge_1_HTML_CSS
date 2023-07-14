@@ -170,11 +170,6 @@ button.link {
   color: #3A4F9A;
 }
 
-.image_card_detailed {
-  width: 771px;
-  height: 311.4px;
-}
-
 .description_detailed {
   width: 676.75px;
   height: 124.33px;
@@ -187,4 +182,10 @@ button.link {
   line-height: 20px;
   letter-spacing: 0.1rem;
   color: #575757;
+}
+
+.image_card_detailed {
+  object-fit: cover;
+  width: 771px;
+  height: 311.4px;
 }
