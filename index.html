@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
+    <script src="data.js"></script>
   </head>
 
   <body>
@@ -11,7 +12,7 @@
       <img src="assets/logo.png" alt="blog logo" class="logo">
       <span class="logo_text">BLOG</span>
     </header>
-<!-- Verificar como deve ser feito a resolução da página -->
+<!-- Verificar responsividade com telas menores -->
 <!-- Adicionar os comentários no outro HTMl -->
     <main>
       <div class="title">
@@ -20,9 +21,10 @@
       </div>
 
       <section class="grid">
-        
+        <div class="cardPost" id="cardPost" onload="renderPosts()">
+        </div>
         <div id="card1" class="card">
-          <img src="assets/card_image.png" alt="">
+          <img src="assets/card_image.png" alt="Image 1">
           <div class="content">
             <h2 class="card_title">The Future</h2>
 
@@ -35,7 +37,7 @@
         </div>
 
         <div id="card2" class="card">
-          <img src="assets/card_image.png" alt="">
+          <img src="assets/card_image.png" alt="Image 2">
           <div class="content">
             <h2 class="card_title">The Future</h2>
 
@@ -48,7 +50,7 @@
         </div>
 
         <div id="card3" class="card">
-          <img src="assets/card_image.png" alt="">
+          <img src="assets/card_image.png" alt="Image 3">
           <div class="content">
             <h2 class="card_title">The Future</h2>
 
@@ -61,7 +63,7 @@
         </div>
 
         <div id="card4" class="card">
-          <img src="assets/card_image.png" alt="">
+          <img src="assets/card_image.png" alt="Image 4">
           <div class="content">
             <h2 class="card_title">The Future</h2>
 
@@ -74,7 +76,7 @@
         </div>
 
         <div id="card5" class="card">
-          <img src="assets/card_image.png" alt="">
+          <img src="assets/card_image.png" alt="Image 5">
           <div class="content">
             <h2 class="card_title">The Future</h2>
 
@@ -87,7 +89,7 @@
         </div>
 
         <div id="card6" class="card">
-          <img src="assets/card_image.png" alt="">
+          <img src="assets/card_image.png" alt="Image 6">
           <div class="content">
             <h2 class="card_title">The Future</h2>
 

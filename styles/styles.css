@@ -92,7 +92,7 @@ body {
   grid-template-rows: repeat(2, 1fr);
   margin-top: 260px;
   margin-left: 79px;
-  gap: 40px 40px;
+  gap: 50px 50px;
   }
 
 .card { /* Verificar Todo*/
@@ -104,6 +104,8 @@ body {
   background-color: #FFFFFF;
   box-shadow: 0px 4px 4px 0px #00000040;
 }
+
+/* Adicionar card_image */
 
 .content {
   padding: 1.1rem;
