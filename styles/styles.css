@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 main{
-  display: flex;
   margin-bottom: 50px;
 }
 
@@ -20,7 +19,6 @@ body {
 }
 
 .logo {
-  display: flex;
   width: 102px;
   height: 29px;
   margin-top: 15px;
@@ -28,8 +26,11 @@ body {
   flex-shrink: 0;
 }
 
-.title_text{
+.title {
   display: flex;
+}
+
+.title_text{
   position: absolute;
   z-index: -1;
   width: 221px;
@@ -118,11 +119,13 @@ button.link {
   color: #3A4F9A;
   background:none; 
   border:none; 
+}
 
+.throwback_button {
+  display: flex;
 }
 
 .circle_throwback_button {
-  display: flex;
   position: fixed;
   z-index: -1;
   width: 75px;
@@ -135,7 +138,6 @@ button.link {
 }
 
 .arrow_throwback_button {
-  display: flex;
   position: fixed;
   width: 49px;
   height: 49px;
