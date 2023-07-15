@@ -4,103 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
-    <script src="data.js"></script>
+    <script src="data.js" type="text/javascript"></script>
   </head>
 
-  <body>
+  <body onload="showPosts()">
     <header class="header">
       <img src="assets/logo.png" alt="blog logo" class="logo">
       <span class="logo_text">BLOG</span>
     </header>
-<!-- Verificar responsividade com telas menores -->
-<!-- Adicionar os comentários no outro HTMl -->
-    <main>
-      <div class="title">
+    <!-- Verificar responsividade com telas menores -->
+    <!-- Adicionar os comentários no outro HTMl -->
+    <!-- Verificar botão de voltar -->
+    <main class="posts">
+      <section class="title">
         <h1 class="title_text">User posts</h1>
         <img src="assets/line.png" class="title_line" alt="line under title">
-      </div>
+      </section>
 
       <section class="grid">
-        <div class="cardPost" id="cardPost" onload="renderPosts()">
+        <div class="postCard" id="postCard">
         </div>
-        <div id="card1" class="card">
-          <img src="assets/card_image.png" alt="Image 1">
-          <div class="content">
-            <h2 class="card_title">The Future</h2>
-
-            <p class="description">
-              1Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...
-            </p>
-            <button class="link">Expand...</button>
-          </div>
-        </div>
-
-        <div id="card2" class="card">
-          <img src="assets/card_image.png" alt="Image 2">
-          <div class="content">
-            <h2 class="card_title">The Future</h2>
-
-            <p class="description">
-              2Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
-              dolores, possimus pariatur animi temporibus nesciunt praesentium 
-            </p>
-            <button class="link">Expand...</button>
-          </div>
-        </div>
-
-        <div id="card3" class="card">
-          <img src="assets/card_image.png" alt="Image 3">
-          <div class="content">
-            <h2 class="card_title">The Future</h2>
-
-            <p class="description">
-              3Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
-              dolores, possimus pariatur animi temporibus nesciunt praesentium 
-            </p>
-            <button class="link">Expand...</button>
-          </div>
-        </div>
-
-        <div id="card4" class="card">
-          <img src="assets/card_image.png" alt="Image 4">
-          <div class="content">
-            <h2 class="card_title">The Future</h2>
-
-            <p class="description">
-              4Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
-              dolores, possimus pariatur animi temporibus nesciunt praesentium 
-            </p>
-            <button class="link">Expand...</button>
-          </div>
-        </div>
-
-        <div id="card5" class="card">
-          <img src="assets/card_image.png" alt="Image 5">
-          <div class="content">
-            <h2 class="card_title">The Future</h2>
-
-            <p class="description">
-              5Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
-              dolores, possimus pariatur animi temporibus nesciunt praesentium 
-            </p>
-            <button class="link">Expand...</button>
-          </div>
-        </div>
-
-        <div id="card6" class="card">
-          <img src="assets/card_image.png" alt="Image 6">
-          <div class="content">
-            <h2 class="card_title">The Future</h2>
-
-            <p class="description">
-              6Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
-              dolores, possimus pariatur animi temporibus nesciunt praesentium 
-            </p>
-            <button class="link">Expand...</button>
-          </div>
-        </div>
+        
       </section>
+
     </main>
   </body>
 </html>

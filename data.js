@@ -1,19 +1,5 @@
-interface Posts {
-    id: number;
-    title: string;
-    imageUrl: string;
-    body: string;
-  }
-
-interface Comments {
-    id: number;
-    postId: number;
-    email: string;
-    body: string;
-}
-
 function showPosts() {
-    let posts: Posts[] = [
+    var posts = [
         {
             id: 1,
             title: "HTML",
@@ -51,25 +37,14 @@ function showPosts() {
             body: "GitHub is a for-profit company that offers a cloud-based Git repository hosting service. Essentially, it makes it a lot easier for individuals and teams to use Git for version control and collaboration. GitHub’s interface is user-friendly enough so even novice coders can take advantage of Git. Without GitHub, using Git generally requires a bit more technical savvy and use of the command line.",
         },
     ];
-
-    const postList = document.getElementById("postCard");
-
+    var postList = document.getElementById("postCard");
     if (postList) {
         postList.innerHTML = "";
-
-        posts.map((post) => {
-            const postContent = document.createElement("a");
+        posts.map(function (post) {
+            var postContent = document.createElement("a");
             postContent.className = "card";
-            postContent.href = `/post_details.html?id=${post.id.toString()}`
-
-            postContent.innerHTML = `
-                <img src="${post.imageUrl}" alt="post card">
-                <h2>${post.title}</h2>
-                <div class="descriptionJ">
-                    <p>${post.body}</p>
-                </div>
-                <span>Expand...</span>
-            `;
+            postContent.href = "/post_details.html?id=".concat(post.id.toString());
+            postContent.innerHTML = "\n                <img src=\"".concat(post.imageUrl, "\" alt=\"post card\">\n                <h2>").concat(post.title, "</h2>\n                <div class=\"descriptionJ\">\n                    <p>").concat(post.body, "</p>\n                </div>\n                <span>Expand...</span>\n            ");
             postList.appendChild(postContent);
         });
     }
