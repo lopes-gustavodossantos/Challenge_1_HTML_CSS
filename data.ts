@@ -3,7 +3,7 @@ interface Posts {
     title: string;
     imageUrl: string;
     body: string;
-  }
+}
 
 interface Comments {
     id: number;

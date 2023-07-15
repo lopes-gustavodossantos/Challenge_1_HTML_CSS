@@ -41,7 +41,7 @@ function showPosts() {
     if (postList) {
         postList.innerHTML = "";
         posts.map(function (post) {
-            var postContent = document.createElement("a");
+            var postContent = document.createElement("span");
             postContent.className = "card";
             postContent.href = "/post_details.html?id=".concat(post.id.toString());
             postContent.innerHTML = "\n                <img src=\"".concat(post.imageUrl, "\" alt=\"post card\">\n                <h2>").concat(post.title, "</h2>\n                <div class=\"descriptionJ\">\n                    <p>").concat(post.body, "</p>\n                </div>\n                <span>Expand...</span>\n            ");
