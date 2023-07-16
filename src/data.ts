@@ -24,7 +24,7 @@ function showPosts() {
             id: 2,
             title: "CSS",
             imageUrl: "assets/card_image.png",
-            body: "CSS was developed by W3C (World Wide Web Consortium) in 1996 for a rather simple reason. HTML element was not designed to have tags that would help format the page. You were only supposed to write the markup for the web page.Tags like <font> were introduced in HTML version 3.2, and it caused quite a lot of trouble for web developers. Due to the fact that web pages have different fonts, colored backgrounds, and multiple styles, it was a long, painful, and expensive process to rewrite the code. Thus, CSS was created by W3C to solve this problem.",
+            body: "CSS was developed by W3C (World Wide Web Consortium) in 1996 for a rather simple reason. HTML element was not designed to have tags that would help format the page. You were only supposed to write the markup for the web page.Tags like <font> were introduced in HTML version 3.2, and it caused quite a lot of trouble for web developers.",
         },
         {
             id: 3,
@@ -42,7 +42,7 @@ function showPosts() {
             id: 5,
             title: "Git",
             imageUrl: "assets/card_image.png",
-            body: "Git is a mature, actively maintained open source project originally developed in 2005 by Linus Torvalds, the famous creator of the Linux operating system kernel. A staggering number of software projects rely on Git for version control, including commercial projects as well as open source. Developers who have worked with Git are well represented in the pool of available software development talent and it works well on a wide range of operating systems and IDEs (Integrated Development Environments).",
+            body: "Git is a mature, actively maintained open source project originally developed in 2005 by Linus Torvalds, the famous creator of the Linux operating system kernel. A staggering number of software projects rely on Git for version control, including commercial projects as well as open source.",
         },
         {
             id: 6,

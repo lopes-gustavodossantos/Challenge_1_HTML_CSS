@@ -182,58 +182,50 @@ body {
   margin-top: 5.625rem;
   margin-left: 2.938rem; 
 }
-/* Até aqui ok */
 
-/* Mudar px para rem, verificar necessidade*/
-.card_detailed {
+.post_details {
   display: flex;
   flex-direction: column;
-  width: 771px;
-  height: 519px;
-  margin-top: 79px;
-  margin-left: 341px;
-  border-radius: 8px;
+  width: 48.188rem;
+  height: 32.438rem;
+  margin-top: 4.938rem;
+  margin-left: 21.313rem;
   background-color: #FFFFFF;
-  box-shadow: 0px 4px 4px 0px #00000040;
+  box-shadow: 0rem 0.25rem 0.25rem 0rem #00000040;
 }
 
-.card_imgage_detailed {
+.card_image_detailed {
+  display: flex;
   object-fit: cover;
-  width: 771px;
-  height: 311.4px;
+  width: 48.188rem;
+  height: 19.463rem;
 }
 
 .card_title_detailed {
-  width: 122px;
-  height: 20px;
-  top: 334.21px;
-  margin-left: 54.67px;
+  width: 7.625rem;
+  height: 1.25rem;
+  margin-top: 2.138rem;
+  margin-left: 3.417rem;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
   letter-spacing: 0.1rem;
   color: #3A4F9A;
 }
 
 .card_description_detailed {
-  width: 676.75px;
-  height: 124.33px;
-  top: 374.14px;
-  margin-left: 54.67px;
+  width: 42.297rem;
+  height: 7.771rem;
+  top: 23.384rem;
+  margin-left: 3.417rem;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 300;
-  font-size: 13px;
-  line-height: 20px;
+  font-size: 0.813rem;
+  line-height: 1.25rem;
   letter-spacing: 0.1rem;
   color: #575757;
 }
-
-.image_card_detailed {
-  object-fit: cover;
-  width: 771px;
-  height: 311.4px;
-}
-/* .................... */
+/* Até aqui ok */
