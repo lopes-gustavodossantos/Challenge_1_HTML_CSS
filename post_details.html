@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
-    <script src="data.js" type="text/javascript"></script>
+    <script src="src/data.js" type="text/javascript"></script>
+    <script src="src/post_details.js" type="text/javascript"></script>
   </head>
 
   <body>
@@ -14,22 +15,11 @@
     </header>
 
     <main>
-        <div class="throwback_button">
-            <input type="image" src="assets/circle_throwback_button.png" onclick="location.href='index.html'" class="circle_throwback_button"/>
-            <input type="image" src="assets/arrow_throwback_button.png" onclick="location.href='index.html'" class="arrow_throwback_button"/>
-        </div>    
-
-        <div class="card_detailed">
-            <img src="assets/card_image.png" class="image_card_detailed">
-            <div class="content">
-                <h2 class="card_title_detailed">The Future</h2>
-                
-                <p class="description_detailed">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took. 
-                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took. 
-                </p>
-            </div>
-        </div>
+      <div class="card_details">
+        <img id="postImage" src="" alt="Post Image">
+        <h2 id="postTitle"></h2>
+        <p id="postBody"></p>
+      </div>
     </main>
   </body>
 </html>

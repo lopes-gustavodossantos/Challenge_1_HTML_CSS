@@ -197,6 +197,12 @@ body {
   box-shadow: 0px 4px 4px 0px #00000040;
 }
 
+.card_imgage_detailed {
+  object-fit: cover;
+  width: 771px;
+  height: 311.4px;
+}
+
 .card_title_detailed {
   width: 122px;
   height: 20px;
@@ -211,7 +217,7 @@ body {
   color: #3A4F9A;
 }
 
-.description_detailed {
+.card_description_detailed {
   width: 676.75px;
   height: 124.33px;
   top: 374.14px;

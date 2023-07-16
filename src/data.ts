@@ -74,11 +74,13 @@ function showPosts() {
             const expandSpan = postContent.querySelector('.expand');
             if (expandSpan) {
                 expandSpan.addEventListener('click', () => {
+                    localStorage.setItem('selectedPost', JSON.stringify(post));
                     window.location.href = `post_details.html?id=${post.id}`;
                 });
             }
 
             postList.appendChild(postContent);
         });
+        
     }
 }
