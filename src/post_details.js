@@ -1,15 +1,29 @@
 document.addEventListener('DOMContentLoaded', function () {
-  // Recupere o post armazenado em localStorage
-  var selectedPost = JSON.parse(localStorage.getItem('selectedPost'));
+    var selectedPost = JSON.parse(localStorage.getItem('selectedPost'));
 
-  if (selectedPost) {
-      // Acesse os dados do post e exiba-os na página como necessário
-      var postTitleElement = document.getElementById('postTitle');
-      var postImageElement = document.getElementById('postImage');
-      var postBodyElement = document.getElementById('postBody');
+    if (selectedPost) {
+        var postImageElement = document.getElementById('postImage');
+        var postTitleElement = document.getElementById('postTitle');
+        var postBodyElement = document.getElementById('postBody');
+        var card_comments = document.getElementById('card_comments');
 
-      postTitleElement.textContent = selectedPost.title;
-      postImageElement.src = selectedPost.imageUrl;
-      postBodyElement.textContent = selectedPost.body;
-  }
+        postImageElement.src = selectedPost.imageUrl;
+        postTitleElement.textContent = selectedPost.title;
+        postBodyElement.textContent = selectedPost.body;
+
+        if (selectedPost.comments && selectedPost.comments.length > 0) {
+            selectedPost.comments.forEach((comment) => {
+                const comments_text = document.createElement("div");
+                comments_text.className = "comments_text";
+
+                const commentContent = `
+                    <p><strong>${comment.name}</strong> (${comment.email})</p>
+                    <p>${comment.body}</p>
+                `;
+                comments_text.innerHTML = commentContent;
+
+                card_comments.appendChild(comments_text);
+            });
+        }
+    }
 });
