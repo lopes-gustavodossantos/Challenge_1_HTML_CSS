@@ -60,7 +60,7 @@ function showPosts() {
                 },
                 {
                     id: 2,
-                    postId: 12,
+                    postId: 2,
                     user: "css_lover",
                     email: "css_lover2023@outlook.com",
                     body: "I love everything in CSS!",

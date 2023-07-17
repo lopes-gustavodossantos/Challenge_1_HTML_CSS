@@ -228,7 +228,7 @@ body {
   letter-spacing: 0.1rem;
   color: #575757;
 }
-/* Até aqui ok */
+
 .card_comments {
   display: flex;
   flex-direction: column;
@@ -241,7 +241,32 @@ body {
 }
 
 .comments_text {
-  margin-bottom: 10px;
-  padding: 5px;
-  border: 1px solid #ccc;
+  margin-top: 1.25rem;
+  margin-left: 3.417rem;
+  margin-right: 2.813rem;
 }
+
+.comment_user_email {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.1rem;
+  color: #3A4F9A;
+}
+
+.comment_body {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 200;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.1rem;
+  color: #575757;
+}
+
+.comment_line {
+  color: #575757;
+}
+/* Até aqui ok */

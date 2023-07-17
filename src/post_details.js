@@ -17,11 +17,14 @@ document.addEventListener('DOMContentLoaded', function () {
                 comments_text.className = "comments_text";
 
                 const commentContent = `
-                    <p><strong>${comment.user}</strong> (${comment.email})</p>
-                    <p class = "commentbody">${comment.body}</p>
+                    <p class="comment_user_email">
+                        ${comment.user}: &nbsp${comment.email}: 
+                        <span class="comment_body">${comment.body}</span>
+                        <hr class=comment_line"></hr>
+                    </p>
                 `;
-                comments_text.innerHTML = commentContent;
 
+                comments_text.innerHTML = commentContent;
                 card_comments.appendChild(comments_text);
             });
         }
