@@ -17,8 +17,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 comments_text.className = "comments_text";
 
                 const commentContent = `
-                    <p><strong>${comment.name}</strong> (${comment.email})</p>
-                    <p>${comment.body}</p>
+                    <p><strong>${comment.user}</strong> (${comment.email})</p>
+                    <p class = "commentbody">${comment.body}</p>
                 `;
                 comments_text.innerHTML = commentContent;
 
