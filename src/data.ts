@@ -49,7 +49,7 @@ function showPosts() {
             id: 2,
             title: "CSS",
             imageUrl: "assets/card_image.png",
-            body: "CSS was developed by W3C (World Wide Web Consortium) in 1996 for a rather simple reason. HTML element was not designed to have tags that would help format the page. You were only supposed to write the markup for the web page.Tags like <font> were introduced in HTML version 3.2, and it caused quite a lot of trouble for web developers.",
+            body: "CSS was developed by W3C (World Wide Web Consortium) in 1996 for a rather simple reason. HTML element was not designed to have tags that would help format the page. You were only supposed to write the markup for the web page.",
             comments: [
                 {
                     id: 1,

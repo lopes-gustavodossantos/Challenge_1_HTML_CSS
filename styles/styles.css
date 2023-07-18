@@ -233,7 +233,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 48.188rem;
-  height: 32.438rem;
+  height: 20.063rem;
   margin-top: 3.813rem;
   margin-left: 21.313rem;
   background-color: #ffffff;
@@ -270,3 +270,22 @@ body {
   color: #575757;
 }
 /* Até aqui ok */
+@media screen and (max-width: 1000px) {
+ .postCard {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  
+  .card {
+    width: auto;
+    height: auto;
+  }
+
+  .card span {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+  }
+}
