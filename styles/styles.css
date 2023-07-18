@@ -340,10 +340,9 @@ body {
     margin-right: 2rem;
   }
 
-  .comments_text {
+  .comment_user_email {
     width: auto;
     height: auto;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: -2rem;
   }
 }
