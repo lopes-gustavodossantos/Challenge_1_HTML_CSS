@@ -269,14 +269,25 @@ body {
 .comment_line {
   color: #575757;
 }
-/* Até aqui ok */
+
 @media screen and (max-width: 1000px) {
- .postCard {
-    display: grid;
+  .logo {
+    margin-left: 2rem;
+  }
+
+  .title_text {
+    margin-left: 2rem;
+  }
+
+  .title_line {
+    margin-left: 2rem;
+  }
+
+  .postCard {
     grid-template-columns: 1fr;
-    gap: 2rem;
     margin-left: 2rem;
     margin-right: 2rem;
+    gap: 2rem;
   }
   
   .card {
@@ -288,4 +299,52 @@ body {
     margin-left: 2rem;
     margin-bottom: 1rem;
   }
+
+  .throwback_button {
+    display: flex;
+  }
+
+  .post_details {
+    width: auto;
+    height: auto;
+    margin-top: 11rem; /* */
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+  }
+
+  .card_image_detailed {
+    object-fit: cover;
+    width: auto;
+    height: auto;
+  }
+  
+  .card_title_detailed {
+    width: auto;
+    height: auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  
+  .card_description_detailed {
+    width: auto;
+    height: auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .card_comments {
+    width: auto;
+    height: auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .comments_text {
+    width: auto;
+    height: auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
 }
+/* Até aqui ok */
