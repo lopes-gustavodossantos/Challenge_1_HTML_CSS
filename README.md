@@ -2,7 +2,7 @@
 
 **Description:**
 
->The project consists in a challenge received in an Internship Program, where it was necessary to make a screen with 6 cards.
+>The Project consists in a challenge received in an Internship Program, where it was necessary to make a screen with 6 cards.
 Each one with images, title, description and a button that takes you to another screen with all the itens detaileds and some comments.
 
 <br> **Project Status:**
