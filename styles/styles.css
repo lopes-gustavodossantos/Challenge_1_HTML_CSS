@@ -39,6 +39,7 @@ body {
   height: 1.75rem;
   margin-top: 0.938rem;
   margin-left: 4.938rem;
+  cursor: pointer;
 }
 
 .logo_text {
@@ -53,6 +54,7 @@ body {
   font-size: 1.5rem;
   line-height: 1.816rem;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 .title {
@@ -270,7 +272,11 @@ body {
   color: #575757;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
+  .header {
+    position: fixed;
+  }
+
   .logo {
     margin-left: 2rem;
   }
@@ -300,14 +306,18 @@ body {
     margin-bottom: 1rem;
   }
 
-  .throwback_button {
-    display: flex;
+  .circle_throwback_button {
+    position: unset;
+  }
+
+  .arrow_throwback_button {
+    position: unset;
   }
 
   .post_details {
     width: auto;
     height: auto;
-    margin-top: 11rem;
+    margin-top: 2rem;
     margin-left: 2rem;
     margin-right: 2rem;
 
@@ -340,10 +350,9 @@ body {
     margin-right: 2rem;
   }
 
-  .comments_text {
+  .comment_user_email {
     width: auto;
     height: auto;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: -2rem;
   }
 }
