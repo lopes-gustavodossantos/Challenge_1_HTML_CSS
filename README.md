@@ -20,6 +20,8 @@ Each one with image, title, description and a button that takes you to another s
 >on the cards you can see an image, a title and a pre-description.
 >You will be able to see the entire description and a few relationed comments after click in the expand button.
 
+>At the end of this file you will be able to see some images of the Project.
+
 <br> **Author:**
 >Gustavo dos Santos Lopes
 
