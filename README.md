@@ -9,7 +9,7 @@ Each one with image, title, description and a button that takes you to another s
 >Concluded.
 
 <br> **What I used in this Project:**<br>
-><img align="center" alt="JavaScript" height="50" width="50" title="JavaScript" src="https://skillicons.dev/icons?i=js"> <img align="center" alt="TypeScript" height="50" width="50" title="TypeScript" src="https://skillicons.dev/icons?i=ts"> <img align="center" alt="HTML" height="50" width="50" title="HTML" src="https://skillicons.dev/icons?i=html"> <img align="center" alt="CSS" height="50" width="50" title="CSS" src="https://skillicons.dev/icons?i=css">
+><img align="center" alt="TypeScript" height="50" width="50" title="TypeScript" src="https://skillicons.dev/icons?i=ts"> <img align="center" alt="HTML" height="50" width="50" title="HTML" src="https://skillicons.dev/icons?i=html"> <img align="center" alt="CSS" height="50" width="50" title="CSS" src="https://skillicons.dev/icons?i=css">
 
 <br> **Requirements:**
 >It's only necessary download the repository.
