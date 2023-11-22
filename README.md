@@ -27,3 +27,9 @@ Each one with image, title, description and a button that takes you to another s
 
 <br> **For support:**
 >lopes.gustavodossantos@gmail.com
+
+<br> **Images:**
+
+<img src="https://github.com/lopes-gustavodossantos/Challenge_1_TypeScript/assets/94156483/a586b6c3-e260-425b-ae94-531e6ec6f50c" width="256" height="144">
+<img src="https://github.com/lopes-gustavodossantos/Challenge_1_TypeScript/assets/94156483/3b363a20-ee5a-455a-8dfd-8aced445cce6" width="256" height="144">
+<img src="https://github.com/lopes-gustavodossantos/Challenge_1_TypeScript/assets/94156483/87eba385-77bf-41cd-9230-df3cbd02f7c8" width="256" height="144">
